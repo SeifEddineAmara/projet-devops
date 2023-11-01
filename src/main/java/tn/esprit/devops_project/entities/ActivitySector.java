@@ -27,5 +27,5 @@ public class ActivitySector  implements Serializable {
         @ManyToMany(mappedBy="activitySectors")
         @JsonIgnore
         private Set<Supplier> suppliers;
-
+//first commit on branch
 }
