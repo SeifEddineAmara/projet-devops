@@ -4,14 +4,14 @@ pipeline {
     stages {
         stage('Checkout from GitHub') {
             steps {
-                echo 'Pulling...'
-                git branch: 'mahdi',
-                    url: 'https://github.com/SeifEddineAmara/projet-devops.git'
+                               git branch: 'mahdi', credentialsId: 'mahdidev', url: 'https://github.com/SeifEddineAmara/projet-devops.git'
             }
         }
         stage('Maven Clean') {
             steps {
-                sh 'mvn clean'
+                 def mavenHome = tool name: "Maven-3.8.6", type: "maven"
+                 def mavenCMD = "${mavenHome}/bin/mvn"
+                 sh "${mavenCMD} clean package"
             }
         }
         stage('Unit Tests') {
