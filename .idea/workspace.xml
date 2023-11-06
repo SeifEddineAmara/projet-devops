@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d788915-f2b9-4702-9537-68a3bef76262" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/ProductServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ProductServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +54,17 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DevOps_ProjectSpringBootApplication">
+  <component name="RunManager" selected="JUnit.ProductServiceImplTest.testAddProduct">
+    <configuration name="ProductServiceImplTest.testAddProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DevOps_Project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProductServiceImplTest" />
+      <option name="METHOD_NAME" value="testAddProduct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DevOps_ProjectSpringBootApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="DevOps_Project" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="tn.esprit.devops_project.DevOps_ProjectSpringBootApplication" />
@@ -85,6 +95,11 @@
       <option name="specificationPath" value="C:\Users\Mon Pc\Desktop\devops\DevOps_Project\projet-devops\src\main\java\tn\esprit\devops_project\openapi.yaml" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ProductServiceImplTest.testAddProduct" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -105,7 +120,7 @@
       <workItem from="1699195790694" duration="665000" />
       <workItem from="1699201670175" duration="1570000" />
       <workItem from="1699228610688" duration="228000" />
-      <workItem from="1699228867591" duration="3047000" />
+      <workItem from="1699228867591" duration="3566000" />
     </task>
     <servers />
   </component>
