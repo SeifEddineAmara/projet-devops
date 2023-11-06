@@ -14,3 +14,11 @@ B
 docker-compose.yml,3\5\35b8c13cf2eb2a194eada000eb310d65aed53b2a
 c
 3src/main/java/tn/esprit/devops_project/openapi.yaml,7\1\71047ad811f81c96a145680c7fa0eb3f3a6d2911
+B
+DevOps_Project.iml,d\a\da34f6fa74476a78b3e9827aca72838d81cffc72
+u
+Esrc/main/java/tn/esprit/devops_project/services/StockServiceImpl.java,0\3\03fd9b73a1efe21b87082a1cd214889917c64aed
+W
+'src/test/java/StockServiceImplTest.java,f\7\f76116d0edabbf25a52420a691b91ea997b9d089
+y
+Isrc/main/java/tn/esprit/devops_project/controllers/InvoiceController.java,b\7\b789f8d8b81d2ce524da823355d6e6b9323a3d6f
