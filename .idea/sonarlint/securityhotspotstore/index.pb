@@ -22,3 +22,7 @@ W
 'src/test/java/StockServiceImplTest.java,f\7\f76116d0edabbf25a52420a691b91ea997b9d089
 y
 Isrc/main/java/tn/esprit/devops_project/controllers/InvoiceController.java,b\7\b789f8d8b81d2ce524da823355d6e6b9323a3d6f
+w
+Gsrc/main/java/tn/esprit/devops_project/services/ProductServiceImpl.java,a\4\a4b4abd90b1f85955e080d880565f888646eb31d
+Y
+)src/test/java/ProductServiceImplTest.java,3\9\39d0d966f0fc065af06b67eeffd55e1cd3a70f8d
