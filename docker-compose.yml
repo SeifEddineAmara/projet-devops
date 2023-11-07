@@ -6,8 +6,6 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: root_password
       MYSQL_DATABASE: devops
-    networks:
-      - mynetwork
 
   spring-app:
     image: aziz3301/devops-integration:latest
@@ -21,8 +19,17 @@ services:
       SPRING_DATASOURCE_PASSWORD:
       SPRING_JPA_SHOW_SQL: "true"
       SPRING_JPA_HIBERNATE_DDL_AUTO: update
-    networks:
-      - mynetwork
 
-networks:
-  mynetwork:
+  prometheus:
+    image: prom/prometheus
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+    command:
+      - "--config.file=/etc/prometheus/prometheus.yml"
+    ports:
+      - "9090:9090"
+
+  grafana:
+    image: grafana/grafana
+    ports:
+      - "3000:3000"
