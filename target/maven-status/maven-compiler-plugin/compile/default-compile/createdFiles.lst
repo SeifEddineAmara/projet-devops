@@ -6,6 +6,7 @@ tn\esprit\devops_project\services\StockServiceImpl.class
 tn\esprit\devops_project\controllers\SupplierController.class
 tn\esprit\devops_project\repositories\InvoiceDetailRepository.class
 tn\esprit\devops_project\services\Iservices\IActivitySector.class
+tn\esprit\devops_project\config\StringBeanConfig.class
 tn\esprit\devops_project\entities\InvoiceDetail.class
 tn\esprit\devops_project\entities\Product.class
 tn\esprit\devops_project\services\InvoiceServiceImpl.class
