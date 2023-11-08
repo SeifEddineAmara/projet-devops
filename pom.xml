@@ -57,6 +57,11 @@
             <version>4.13.2</version> <!-- You can use a different version if needed -->
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>3.0.0</version>
+        </dependency>
 
         <!-- Mockito for mocking in unit tests -->
         <dependency>
