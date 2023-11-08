@@ -26,3 +26,5 @@ w
 Gsrc/main/java/tn/esprit/devops_project/services/ProductServiceImpl.java,a\4\a4b4abd90b1f85955e080d880565f888646eb31d
 Y
 )src/test/java/ProductServiceImplTest.java,3\9\39d0d966f0fc065af06b67eeffd55e1cd3a70f8d
+F
+deploymentservice.yaml,6\c\6c5d52be624595b06b8b1cd2bdecd70a54e23731
