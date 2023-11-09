@@ -4,7 +4,6 @@ services:
   db:
     image: mysql:latest
     environment:
-      MYSQL_ROOT_PASSWORD:
       MYSQL_DATABASE: devops
     networks:
       - mynetwork
