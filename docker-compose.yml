@@ -1,0 +1,34 @@
+version: "2"
+
+networks:
+  springboot-mysql-net:
+
+services:
+  mysqldb:
+    container_name: mysqldb
+    image: "mariadb:latest"
+    restart: unless-stopped
+    ports:
+      - 3306:3306
+    environment:
+      - MARIADB_ROOT_PASSWORD=root
+      - MARIADB_DATABASE=projet-devops
+    networks:
+      - springboot-mysql-net
+
+
+
+  projet-devops:
+    build: ./
+    image: devops-projet
+    restart: unless-stopped
+    environment:
+      - spring.datasource.url=jdbc:mysql://mysqldb:3306/projet-devops?autoReconnect=true&useSSL=false
+      - spring.datasource.username=root
+      - spring.datasource.password=root
+    ports:
+      - 8089:8089
+    depends_on:
+      - mysqldb
+    networks:
+      - springboot-mysql-net
